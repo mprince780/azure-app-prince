@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_prince</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a8dfcba5-7c10-4d09-899d-441a98b1816a/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-prince-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>3ce71ace-5112-4343-b417-8ddedd303536</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.20.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
 
 </Project>

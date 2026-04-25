@@ -7,6 +7,7 @@ namespace azure_app_prince.Pages
     {
         public void OnGet()
         {
+            //throw new Exception("Testing Insights");
         }
     }
 
